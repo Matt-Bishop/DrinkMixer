@@ -1,0 +1,403 @@
+TDrinkMixer
+v7
+r0
+t314410695.790414
+cCheck dependencies
+cProcessInfoPlistFile /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/Info.plist DrinkMixer-Info.plist
+cCompileXIB /Users/mattheweugenebishop/Documents/DrinkMixer/MainWindow.xib
+cCompileXIB /Users/mattheweugenebishop/Documents/DrinkMixer/RootViewController.xib
+cCopyPlistFile /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkArray.plist ../../Desktop/Chapter_4/DrinkMixer/DrinkArray.plist
+cCopyPlistFile /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkMixer-Info.plist ../../Desktop/Chapter_4/DrinkMixer/DrinkMixer-Info.plist
+cCompileXIB /Users/mattheweugenebishop/Documents/DrinkMixer/DrinkDetailViewController.xib
+cCopyPlistFile /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkDirections.plist ../../Desktop/Chapter_4/DrinkMixer/DrinkDirections.plist
+cProcessPCH /var/folders/M9/M9Te58jYEVqd1dcm3BGlOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DrinkMixer_Prefix-fcygtshqxgrgyfdwpstdezvzegsm/DrinkMixer_Prefix.pch.gch DrinkMixer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/main.o /Users/mattheweugenebishop/Documents/DrinkMixer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/DrinkMixerAppDelegate.o /Users/mattheweugenebishop/Documents/DrinkMixer/Classes/DrinkMixerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/RootViewController.o /Users/mattheweugenebishop/Documents/DrinkMixer/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/DrinkDetailViewController.o /Users/mattheweugenebishop/Documents/DrinkMixer/Classes/../DrinkDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkMixer normal i386
+cGenerateDSYMFile /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app.dSYM /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkMixer
+cTouch /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/Availability.h
+c000000004C57A0390000000000001A5C
+t1280811065
+s6748
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/../../Desktop/Chapter_4/DrinkMixer/DrinkArray.plist
+c000000004AE656E900000000000005AE
+t1256609513
+s1454
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/../../Desktop/Chapter_4/DrinkMixer/DrinkDirections.plist
+c000000004AE656E9000000000000324B
+t1256609513
+s12875
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/../../Desktop/Chapter_4/DrinkMixer/DrinkMixer-Info.plist
+c000000004AE656E9000000000000038D
+t1256609513
+s909
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/../DrinkDetailViewController.h
+c000000004D0D4B58000000000000027F
+t1292716888
+s639
+i<UIKit/UIKit.h>
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/../DrinkDetailViewController.m
+c000000004D0D4E8E00000000000007C0
+t1292717710
+s1984
+i"DrinkDetailViewController.h"
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/DrinkConstants.h
+c000000004D0D4E8E0000000000000064
+t1292717710
+s100
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/DrinkMixerAppDelegate.h
+c000000004D0D2E4000000000000001E6
+t1292709440
+s486
+i<UIKit/UIKit.h>
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/DrinkMixerAppDelegate.m
+c000000004D0D2E400000000000000AB3
+t1292709440
+s2739
+i"DrinkMixerAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/RootViewController.h
+c000000004D0D33EA0000000000000149
+t1292710890
+s329
+i<UIKit/UIKit.h>
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/RootViewController.m
+c000000004D0D4EE100000000000012A3
+t1292717793
+s4771
+i"RootViewController.h"
+i"DrinkDetailViewController.h"
+i"DrinkConstants.h"
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/DrinkArray.plist
+c000000004D0D36B10000000000000112
+t1292711601
+s274
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/DrinkDetailViewController.h
+c000000004D0D4B58000000000000027F
+t1292716888
+s639
+i<UIKit/UIKit.h>
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/DrinkDetailViewController.m
+c000000004D0D3B6600000000000005C4
+t1292712806
+s1476
+i"DrinkDetailViewController.h"
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/DrinkDetailViewController.xib
+c000000004D0D4F410000000000006C0B
+t1292717889
+s27659
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/DrinkMixer_Prefix.pch
+c000000004D0D2E400000000000000146
+t1292709440
+s326
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/MainWindow.xib
+c000000004D0D3A690000000000006067
+t1292712553
+s24679
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/RootViewController.xib
+c000000004D0D2E400000000000004455
+t1292709440
+s17493
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app
+t1292717895
+s374
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app.dSYM
+t1292717793
+s102
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkArray.plist
+t1292711999
+s718
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkDetailViewController.nib
+t1292717895
+s4873
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkDirections.plist
+t1292716148
+s8088
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkMixer
+t1292717793
+s26028
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkMixer-Info.plist
+t1292712494
+s494
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/Info.plist
+t1292710890
+s603
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/MainWindow.nib
+t1292712559
+s2506
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/PkgInfo
+t1292710890
+s8
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/RootViewController.nib
+t1292710891
+s1518
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/DrinkDetailViewController.o
+t1292717710
+s43380
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/DrinkMixer.LinkFileList
+c000000004D0D3E5F0000000000000258
+t1292713567
+s600
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/DrinkMixerAppDelegate.o
+t1292710891
+s49644
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/RootViewController.o
+t1292717793
+s43612
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/main.o
+t1292710891
+s6320
+
+N/Users/mattheweugenebishop/Documents/DrinkMixer/main.m
+c000000004D0D2E400000000000000176
+t1292709440
+s374
+i<UIKit/UIKit.h>
+
+N/var/folders/M9/M9Te58jYEVqd1dcm3BGlOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DrinkMixer_Prefix-fcygtshqxgrgyfdwpstdezvzegsm/DrinkMixer_Prefix.pch.gch
+t1292710891
+s15211536
+
+NDrinkMixer-Info.plist
+c000000004D0D2E40000000000000038D
+t1292709440
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314410695#314410695#0(0"0(0#1#0"8613209216#0"0#
+
+CCompileC build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/DrinkDetailViewController.o /Users/mattheweugenebishop/Documents/DrinkMixer/Classes/../DrinkDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314410510.383358
+e314410510.542137
+r1
+xCompileC
+xbuild/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/DrinkDetailViewController.o
+x/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/../DrinkDetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/mattheweugenebishop/Documents/DrinkMixer/Classes/../DrinkDetailViewController.m314410510#314410510#0(0"0(0#0#86"/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/../DrinkDetailViewController.m8619254880#2126"    cd /Users/mattheweugenebishop/Documents/DrinkMixer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-generated-files.hmap -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-own-target-headers.hmap -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-all-target-headers.hmap -iquote /Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-project-headers.hmap -F/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/include -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DerivedSources/i386 -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DerivedSources -include /var/folders/M9/M9Te58jYEVqd1dcm3BGlOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DrinkMixer_Prefix-fcygtshqxgrgyfdwpstdezvzegsm/DrinkMixer_Prefix.pch -c /Users/mattheweugenebishop/Documents/DrinkMixer/Classes/../DrinkDetailViewController.m -o /Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/DrinkDetailViewController.o0#
+
+CCompileC build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/DrinkDetailViewController.o /Users/mattheweugenebishop/Documents/DrinkMixer/DrinkDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/DrinkMixerAppDelegate.o /Users/mattheweugenebishop/Documents/DrinkMixer/Classes/DrinkMixerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314403691.755890
+e314403691.822542
+r1
+xCompileC
+xbuild/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/DrinkMixerAppDelegate.o
+x/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/DrinkMixerAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/mattheweugenebishop/Documents/DrinkMixer/Classes/DrinkMixerAppDelegate.m314403691#314403691#0(0"0(0#0#79"/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/DrinkMixerAppDelegate.m8613707328#2115"    cd /Users/mattheweugenebishop/Documents/DrinkMixer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-generated-files.hmap -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-own-target-headers.hmap -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-all-target-headers.hmap -iquote /Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-project-headers.hmap -F/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/include -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DerivedSources/i386 -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DerivedSources -include /var/folders/M9/M9Te58jYEVqd1dcm3BGlOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DrinkMixer_Prefix-fcygtshqxgrgyfdwpstdezvzegsm/DrinkMixer_Prefix.pch -c /Users/mattheweugenebishop/Documents/DrinkMixer/Classes/DrinkMixerAppDelegate.m -o /Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/DrinkMixerAppDelegate.o0#
+
+CCompileC build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/RootViewController.o /Users/mattheweugenebishop/Documents/DrinkMixer/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314410593.507826
+e314410593.669708
+r1
+xCompileC
+xbuild/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/RootViewController.o
+x/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/mattheweugenebishop/Documents/DrinkMixer/Classes/RootViewController.m314410593#314410593#0(0"0(0#0#76"/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/RootViewController.m8618473280#2109"    cd /Users/mattheweugenebishop/Documents/DrinkMixer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-generated-files.hmap -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-own-target-headers.hmap -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-all-target-headers.hmap -iquote /Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-project-headers.hmap -F/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/include -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DerivedSources/i386 -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DerivedSources -include /var/folders/M9/M9Te58jYEVqd1dcm3BGlOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DrinkMixer_Prefix-fcygtshqxgrgyfdwpstdezvzegsm/DrinkMixer_Prefix.pch -c /Users/mattheweugenebishop/Documents/DrinkMixer/Classes/RootViewController.m -o /Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/main.o /Users/mattheweugenebishop/Documents/DrinkMixer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314403691.755061
+e314403691.804320
+r1
+xCompileC
+xbuild/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/main.o
+x/Users/mattheweugenebishop/Documents/DrinkMixer/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/mattheweugenebishop/Documents/DrinkMixer/main.m314403691#314403691#0(0"0(0#0#54"/Users/mattheweugenebishop/Documents/DrinkMixer/main.m8614122816#2073"    cd /Users/mattheweugenebishop/Documents/DrinkMixer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-generated-files.hmap -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-own-target-headers.hmap -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-all-target-headers.hmap -iquote /Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-project-headers.hmap -F/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/include -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DerivedSources/i386 -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DerivedSources -include /var/folders/M9/M9Te58jYEVqd1dcm3BGlOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DrinkMixer_Prefix-fcygtshqxgrgyfdwpstdezvzegsm/DrinkMixer_Prefix.pch -c /Users/mattheweugenebishop/Documents/DrinkMixer/main.m -o /Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/mattheweugenebishop/Documents/DrinkMixer/DrinkDetailViewController.xib
+s314410695.397119
+e314410695.787336
+r1
+xCompileXIB
+x/Users/mattheweugenebishop/Documents/DrinkMixer/DrinkDetailViewController.xib
+lSLF07#2@40"CompileXIB DrinkDetailViewController.xib314410695#314410695#0(0"0(0#0#77"/Users/mattheweugenebishop/Documents/DrinkMixer/DrinkDetailViewController.xib8612110528#630"    cd /Users/mattheweugenebishop/Documents/DrinkMixer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkDetailViewController.nib /Users/mattheweugenebishop/Documents/DrinkMixer/DrinkDetailViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/mattheweugenebishop/Documents/DrinkMixer/MainWindow.xib
+s314405359.634240
+e314405359.976197
+r1
+xCompileXIB
+x/Users/mattheweugenebishop/Documents/DrinkMixer/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib314405359#314405359#0(0"0(0#0#62"/Users/mattheweugenebishop/Documents/DrinkMixer/MainWindow.xib8616308064#600"    cd /Users/mattheweugenebishop/Documents/DrinkMixer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/MainWindow.nib /Users/mattheweugenebishop/Documents/DrinkMixer/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/mattheweugenebishop/Documents/DrinkMixer/RootViewController.xib
+s314403690.661031
+e314403691.022543
+r1
+xCompileXIB
+x/Users/mattheweugenebishop/Documents/DrinkMixer/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib314403690#314403691#0(0"0(0#0#70"/Users/mattheweugenebishop/Documents/DrinkMixer/RootViewController.xib8614104800#616"    cd /Users/mattheweugenebishop/Documents/DrinkMixer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/RootViewController.nib /Users/mattheweugenebishop/Documents/DrinkMixer/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCopyPlistFile /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkArray.plist ../../Desktop/Chapter_4/DrinkMixer/DrinkArray.plist
+s314404799.660463
+e314404799.680080
+r1
+xCopyPlistFile
+x/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkArray.plist
+x../../Desktop/Chapter_4/DrinkMixer/DrinkArray.plist
+lSLF07#2@56"Copy ../../Desktop/Chapter_4/DrinkMixer/DrinkArray.plist314404799#314404799#0(0"0(0#0#99"/Users/mattheweugenebishop/Documents/DrinkMixer/../../Desktop/Chapter_4/DrinkMixer/DrinkArray.plist8612157984#447"    cd /Users/mattheweugenebishop/Documents/DrinkMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 ../../Desktop/Chapter_4/DrinkMixer/DrinkArray.plist --outdir /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app0#
+
+CCopyPlistFile /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkArray.plist DrinkArray.plist
+s314404401.172865
+e314404401.355908
+r1
+xCopyPlistFile
+x/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkArray.plist
+xDrinkArray.plist
+lSLF07#2@21"Copy DrinkArray.plist314404401#314404401#0(0"0(0#0#64"/Users/mattheweugenebishop/Documents/DrinkMixer/DrinkArray.plist8612330336#412"    cd /Users/mattheweugenebishop/Documents/DrinkMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 DrinkArray.plist --outdir /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app0#
+
+CCopyPlistFile /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkDirections.plist ../../Desktop/Chapter_4/DrinkMixer/DrinkDirections.plist
+s314408948.410180
+e314408948.503940
+r1
+xCopyPlistFile
+x/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkDirections.plist
+x../../Desktop/Chapter_4/DrinkMixer/DrinkDirections.plist
+lSLF07#2@61"Copy ../../Desktop/Chapter_4/DrinkMixer/DrinkDirections.plist314408948#314408948#0(0"0(0#0#104"/Users/mattheweugenebishop/Documents/DrinkMixer/../../Desktop/Chapter_4/DrinkMixer/DrinkDirections.plist8618452064#452"    cd /Users/mattheweugenebishop/Documents/DrinkMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 ../../Desktop/Chapter_4/DrinkMixer/DrinkDirections.plist --outdir /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app0#
+
+CCopyPlistFile /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkMixer-Info.plist ../../Desktop/Chapter_4/DrinkMixer/DrinkMixer-Info.plist
+s314405294.874132
+e314405294.896114
+r1
+xCopyPlistFile
+x/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkMixer-Info.plist
+x../../Desktop/Chapter_4/DrinkMixer/DrinkMixer-Info.plist
+lSLF07#2@61"Copy ../../Desktop/Chapter_4/DrinkMixer/DrinkMixer-Info.plist314405294#314405294#0(0"0(0#0#104"/Users/mattheweugenebishop/Documents/DrinkMixer/../../Desktop/Chapter_4/DrinkMixer/DrinkMixer-Info.plist8614217216#452"    cd /Users/mattheweugenebishop/Documents/DrinkMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 ../../Desktop/Chapter_4/DrinkMixer/DrinkMixer-Info.plist --outdir /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app0#
+
+CGenerateDSYMFile /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app.dSYM /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkMixer
+s314410593.688972
+e314410593.703817
+r1
+xGenerateDSYMFile
+x/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app.dSYM
+x/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkMixer
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/DrinkMixer.app.dSYM build/Debug-iphonesimulator/DrinkMixer.app/DrinkMixer314410593#314410593#0(0"0(0#0#101"/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkMixer8619680960#419"    cd /Users/mattheweugenebishop/Documents/DrinkMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkMixer -o /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app.dSYM0#
+
+CLd /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkMixer normal i386
+s314410593.669792
+e314410593.688888
+r1
+xLd
+x/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkMixer
+xnormal
+xi386
+lSLF07#2@106"Link /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkMixer314410593#314410593#0(0"0(0#0#0"8611894048#960"    cd /Users/mattheweugenebishop/Documents/DrinkMixer    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator -F/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator -filelist /Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/Objects-normal/i386/DrinkMixer.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/DrinkMixer0#
+
+CProcessInfoPlistFile /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/Info.plist DrinkMixer-Info.plist
+s314403690.652690
+e314403690.659407
+r1
+xProcessInfoPlistFile
+x/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/Info.plist
+xDrinkMixer-Info.plist
+lSLF07#2@29"Process DrinkMixer-Info.plist314403690#314403690#0(0"0(0#0#69"/Users/mattheweugenebishop/Documents/DrinkMixer/DrinkMixer-Info.plist31244160508756040#515"    cd /Users/mattheweugenebishop/Documents/DrinkMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DrinkMixer-Info.plist -genpkginfo /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app/Info.plist0#
+
+CProcessPCH /var/folders/M9/M9Te58jYEVqd1dcm3BGlOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DrinkMixer_Prefix-fcygtshqxgrgyfdwpstdezvzegsm/DrinkMixer_Prefix.pch.gch DrinkMixer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s314403691.035616
+e314403691.754977
+r1
+xProcessPCH
+x/var/folders/M9/M9Te58jYEVqd1dcm3BGlOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DrinkMixer_Prefix-fcygtshqxgrgyfdwpstdezvzegsm/DrinkMixer_Prefix.pch.gch
+xDrinkMixer_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile DrinkMixer_Prefix.pch314403691#314403691#0(0"0(0#0#69"/Users/mattheweugenebishop/Documents/DrinkMixer/DrinkMixer_Prefix.pch8171908467653174272#1953"    cd /Users/mattheweugenebishop/Documents/DrinkMixer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-generated-files.hmap -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-own-target-headers.hmap -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-all-target-headers.hmap -iquote /Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DrinkMixer-project-headers.hmap -F/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/include -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DerivedSources/i386 -I/Users/mattheweugenebishop/Documents/DrinkMixer/build/DrinkMixer.build/Debug-iphonesimulator/DrinkMixer.build/DerivedSources -c /Users/mattheweugenebishop/Documents/DrinkMixer/DrinkMixer_Prefix.pch -o /var/folders/M9/M9Te58jYEVqd1dcm3BGlOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DrinkMixer_Prefix-fcygtshqxgrgyfdwpstdezvzegsm/DrinkMixer_Prefix.pch.gch0#
+
+CTouch /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app
+s314410695.788166
+e314410695.790387
+r1
+xTouch
+x/Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app
+lSLF07#2@96"Touch /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app314410695#314410695#0(0"0(0#0#0"8619110880#299"    cd /Users/mattheweugenebishop/Documents/DrinkMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mattheweugenebishop/Documents/DrinkMixer/build/Debug-iphonesimulator/DrinkMixer.app0#
+
