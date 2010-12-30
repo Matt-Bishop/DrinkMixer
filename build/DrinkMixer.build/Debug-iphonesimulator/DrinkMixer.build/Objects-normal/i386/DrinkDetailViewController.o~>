@@ -1,0 +1,7 @@
+/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/../DrinkDetailViewController.m:14: error: no declaration of property 'scrollView' found in the interface
+/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/../DrinkDetailViewController.m: In function '-[DrinkDetailViewController viewDidLoad]':
+/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/../DrinkDetailViewController.m:38: error: 'scrollView' undeclared (first use in this function)
+/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/../DrinkDetailViewController.m:38: error: (Each undeclared identifier is reported only once
+/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/../DrinkDetailViewController.m:38: error: for each function it appears in.)
+/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/../DrinkDetailViewController.m: In function '-[DrinkDetailViewController dealloc]':
+/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/../DrinkDetailViewController.m:65: error: 'scrollView' undeclared (first use in this function)

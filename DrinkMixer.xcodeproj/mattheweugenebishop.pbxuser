@@ -22,16 +22,16 @@
 	};
 	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {867, 882}}";
-			sepNavSelRange = "{322, 0}";
-			sepNavVisRange = "{0, 329}";
+			sepNavIntBoundsRect = "{{0, 0}, {488, 325}}";
+			sepNavSelRange = "{538, 0}";
+			sepNavVisRange = "{184, 361}";
 		};
 	};
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {908, 2197}}";
-			sepNavSelRange = "{2310, 0}";
-			sepNavVisRange = "{2123, 552}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 2561}}";
+			sepNavSelRange = "{5339, 0}";
+			sepNavVisRange = "{3550, 2341}";
 			sepNavWindowFrame = "{{72, 855}, {750, 558}}";
 		};
 	};
@@ -40,9 +40,10 @@
 		activeExecutable = 7C6D6C4312BD65C0006FBC06 /* DrinkMixer */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* DrinkMixer */;
 		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* DrinkMixer */,
 		);
 		breakpoints = (
-			7C6D6CD112BD80D5006FBC06 /* RootViewController.m:22 */,
+			7C6D6CD112BD80D5006FBC06 /* RootViewController.m:23 */,
 		);
 		codeSenseManager = 7C6D6C4E12BD65DF006FBC06 /* Code sense */;
 		executables = (
@@ -78,9 +79,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					689,
+					955,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -95,24 +96,52 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 314402240;
-			PBXWorkspaceStateSaveDate = 314402240;
+			PBXPerProjectTemplateStateSaveDate = 315387839;
+			PBXWorkspaceStateSaveDate = 315387839;
 		};
 		perUserProjectItems = {
+			7C5D713E12C9B293000C16D6 /* PlistBookmark */ = 7C5D713E12C9B293000C16D6 /* PlistBookmark */;
 			7C6D6C9512BD731B006FBC06 /* PlistBookmark */ = 7C6D6C9512BD731B006FBC06 /* PlistBookmark */;
 			7C6D6CC712BD7FF4006FBC06 /* PlistBookmark */ = 7C6D6CC712BD7FF4006FBC06 /* PlistBookmark */;
 			7C6D6CCC12BD7FF4006FBC06 /* PBXTextBookmark */ = 7C6D6CCC12BD7FF4006FBC06 /* PBXTextBookmark */;
-			7C6D6CE212BD8354006FBC06 /* PlistBookmark */ = 7C6D6CE212BD8354006FBC06 /* PlistBookmark */;
-			7C6D6CEF12BD860E006FBC06 /* PBXTextBookmark */ = 7C6D6CEF12BD860E006FBC06 /* PBXTextBookmark */;
 			7C6D6CF012BD860E006FBC06 /* PBXTextBookmark */ = 7C6D6CF012BD860E006FBC06 /* PBXTextBookmark */;
-			7C6D6CF112BD860E006FBC06 /* PBXTextBookmark */ = 7C6D6CF112BD860E006FBC06 /* PBXTextBookmark */;
-			7C6D6CF312BD860E006FBC06 /* PBXTextBookmark */ = 7C6D6CF312BD860E006FBC06 /* PBXTextBookmark */;
 			7C6D6CF812BD8661006FBC06 /* PBXTextBookmark */ = 7C6D6CF812BD8661006FBC06 /* PBXTextBookmark */;
-			7C6D6CF912BD8661006FBC06 /* PBXTextBookmark */ = 7C6D6CF912BD8661006FBC06 /* PBXTextBookmark */;
-			7C6D6D0112BD86EB006FBC06 /* PBXTextBookmark */ = 7C6D6D0112BD86EB006FBC06 /* PBXTextBookmark */;
+			7C920B4412CC721400F3F037 /* PBXTextBookmark */ = 7C920B4412CC721400F3F037 /* PBXTextBookmark */;
+			7C920B6E12CC7BC700F3F037 /* PBXTextBookmark */ = 7C920B6E12CC7BC700F3F037 /* PBXTextBookmark */;
+			7C920B7A12CC7DF400F3F037 /* PBXTextBookmark */ = 7C920B7A12CC7DF400F3F037 /* PBXTextBookmark */;
+			7C920B7B12CC7DF400F3F037 /* PBXTextBookmark */ = 7C920B7B12CC7DF400F3F037 /* PBXTextBookmark */;
+			7C920B8512CC81B000F3F037 /* PBXTextBookmark */ = 7C920B8512CC81B000F3F037 /* PBXTextBookmark */;
+			7C920B8612CC81B000F3F037 /* PBXTextBookmark */ = 7C920B8612CC81B000F3F037 /* PBXTextBookmark */;
+			7C920B8B12CC825000F3F037 /* PBXTextBookmark */ = 7C920B8B12CC825000F3F037 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 7C6D6C4D12BD65DF006FBC06 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	7C5D713E12C9B293000C16D6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 7C6D6CC112BD7E64006FBC06 /* DrinkDirections.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			0,
+		);
+		name = /Users/mattheweugenebishop/Desktop/Chapter_4/DrinkMixer/DrinkDirections.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	7C5D715D12C9B7AA000C16D6 /* AddDrinkViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1133, 997}}";
+			sepNavSelRange = "{402, 0}";
+			sepNavVisRange = "{0, 577}";
+		};
+	};
+	7C5D715E12C9B7AA000C16D6 /* AddDrinkViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1258, 1729}}";
+			sepNavSelRange = "{3895, 0}";
+			sepNavVisRange = "{1723, 2517}";
 		};
 	};
 	7C6D6C4312BD65C0006FBC06 /* DrinkMixer */ = {
@@ -122,7 +151,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -173,16 +202,16 @@
 	};
 	7C6D6C8C12BD72E6006FBC06 /* DrinkDetailViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {867, 882}}";
-			sepNavSelRange = "{449, 0}";
-			sepNavVisRange = "{0, 639}";
+			sepNavIntBoundsRect = "{{0, 0}, {1133, 997}}";
+			sepNavSelRange = "{431, 0}";
+			sepNavVisRange = "{0, 731}";
 		};
 	};
 	7C6D6C8D12BD72E6006FBC06 /* DrinkDetailViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 962}}";
-			sepNavSelRange = "{994, 0}";
-			sepNavVisRange = "{35, 1943}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 997}}";
+			sepNavSelRange = "{1929, 0}";
+			sepNavVisRange = "{0, 2069}";
 		};
 	};
 	7C6D6C9512BD731B006FBC06 /* PlistBookmark */ = {
@@ -194,7 +223,12 @@
 		);
 		name = /Users/mattheweugenebishop/Desktop/Chapter_4/DrinkMixer/DrinkArray.plist;
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
+	};
+	7C6D6CC112BD7E64006FBC06 /* DrinkDirections.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{75, 855}, {750, 558}}";
+		};
 	};
 	7C6D6CC712BD7FF4006FBC06 /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -205,7 +239,7 @@
 		);
 		name = "/Users/mattheweugenebishop/Desktop/Chapter_4/DrinkMixer/DrinkMixer-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	7C6D6CCC12BD7FF4006FBC06 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -217,7 +251,7 @@
 		vrLen = 2373;
 		vrLoc = 0;
 	};
-	7C6D6CD112BD80D5006FBC06 /* RootViewController.m:22 */ = {
+	7C6D6CD112BD80D5006FBC06 /* RootViewController.m:23 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -227,25 +261,13 @@
 		delayBeforeContinue = 0;
 		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		functionName = "-viewDidLoad";
-		hitCount = 1;
+		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 22;
+		lineNumber = 23;
 		location = DrinkMixer;
-		modificationTime = 314409500.321172;
+		modificationTime = 315392433.792394;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
-	};
-	7C6D6CE212BD8354006FBC06 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 7C6D6CC112BD7E64006FBC06 /* DrinkDirections.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			0,
-		);
-		name = /Users/mattheweugenebishop/Desktop/Chapter_4/DrinkMixer/DrinkDirections.plist;
-		rLen = 0;
-		rLoc = 9223372036854775807;
 	};
 	7C6D6CEC12BD83D2006FBC06 /* DrinkConstants.h */ = {
 		uiCtxt = {
@@ -253,16 +275,6 @@
 			sepNavSelRange = "{100, 0}";
 			sepNavVisRange = "{0, 100}";
 		};
-	};
-	7C6D6CEF12BD860E006FBC06 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
-		name = "RootViewController.h: 16";
-		rLen = 0;
-		rLoc = 322;
-		rType = 0;
-		vrLen = 329;
-		vrLoc = 0;
 	};
 	7C6D6CF012BD860E006FBC06 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -274,26 +286,6 @@
 		vrLen = 486;
 		vrLoc = 0;
 	};
-	7C6D6CF112BD860E006FBC06 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7C6D6C8C12BD72E6006FBC06 /* DrinkDetailViewController.h */;
-		name = "DrinkDetailViewController.h: 20";
-		rLen = 0;
-		rLoc = 449;
-		rType = 0;
-		vrLen = 639;
-		vrLoc = 0;
-	};
-	7C6D6CF312BD860E006FBC06 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
-		name = "RootViewController.m: 143";
-		rLen = 0;
-		rLoc = 4147;
-		rType = 0;
-		vrLen = 2096;
-		vrLoc = 2677;
-	};
 	7C6D6CF812BD8661006FBC06 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 7C6D6CEC12BD83D2006FBC06 /* DrinkConstants.h */;
@@ -304,24 +296,74 @@
 		vrLen = 100;
 		vrLoc = 0;
 	};
-	7C6D6CF912BD8661006FBC06 /* PBXTextBookmark */ = {
+	7C920B4412CC721400F3F037 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C5D715D12C9B7AA000C16D6 /* AddDrinkViewController.h */;
+		name = "AddDrinkViewController.h: 18";
+		rLen = 0;
+		rLoc = 402;
+		rType = 0;
+		vrLen = 577;
+		vrLoc = 0;
+	};
+	7C920B6E12CC7BC700F3F037 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C6D6C8C12BD72E6006FBC06 /* DrinkDetailViewController.h */;
+		name = "DrinkDetailViewController.h: 18";
+		rLen = 0;
+		rLoc = 431;
+		rType = 0;
+		vrLen = 731;
+		vrLoc = 0;
+	};
+	7C920B7A12CC7DF400F3F037 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 7C6D6C8D12BD72E6006FBC06 /* DrinkDetailViewController.m */;
-		name = "DrinkDetailViewController.m: 30";
+		name = "DrinkDetailViewController.m: 65";
 		rLen = 0;
-		rLoc = 994;
+		rLoc = 1929;
 		rType = 0;
-		vrLen = 1943;
-		vrLoc = 35;
+		vrLen = 2069;
+		vrLoc = 0;
 	};
-	7C6D6D0112BD86EB006FBC06 /* PBXTextBookmark */ = {
+	7C920B7B12CC7DF400F3F037 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C5D715E12C9B7AA000C16D6 /* AddDrinkViewController.m */;
+		name = "AddDrinkViewController.m: 115";
+		rLen = 0;
+		rLoc = 3895;
+		rType = 0;
+		vrLen = 2517;
+		vrLoc = 1723;
+	};
+	7C920B8512CC81B000F3F037 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
-		name = "RootViewController.m: 90";
+		name = "RootViewController.m: 174";
 		rLen = 0;
-		rLoc = 2396;
+		rLoc = 5339;
 		rType = 0;
-		vrLen = 2250;
-		vrLoc = 1334;
+		vrLen = 2341;
+		vrLoc = 3550;
+	};
+	7C920B8612CC81B000F3F037 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 27";
+		rLen = 0;
+		rLoc = 545;
+		rType = 0;
+		vrLen = 691;
+		vrLoc = 0;
+	};
+	7C920B8B12CC825000F3F037 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 25";
+		rLen = 0;
+		rLoc = 545;
+		rType = 0;
+		vrLen = 545;
+		vrLoc = 0;
 	};
 }

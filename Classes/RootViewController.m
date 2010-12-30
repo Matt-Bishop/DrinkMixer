@@ -9,9 +9,10 @@
 #import "RootViewController.h"
 #import "DrinkDetailViewController.h"
 #import "DrinkConstants.h"
+#import "AddDrinkViewController.h"
 
 @implementation RootViewController
-@synthesize drinks;
+@synthesize drinks, addButtonItem;
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -25,17 +26,20 @@
 	self.drinks = tmpArray;
 	[tmpArray release];
 	
-
+	self.navigationItem.rightBarButtonItem = self.addButtonItem;
+	
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationWillTerminate:) name: UIApplicationWillTerminateNotification object:nil];
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 
-/*
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+	[self.tableView reloadData];
 }
-*/
+
 /*
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
@@ -88,6 +92,7 @@
     
 	// Configure the cell.
 	cell.textLabel.text = [[self.drinks objectAtIndex:indexPath.row]objectForKey:NAME_KEY];
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
@@ -158,15 +163,33 @@
 }
 
 - (void)viewDidUnload {
+	[[NSNotificationCenter defaultCenter] removeObserver:self];
     // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
     // For example: self.myOutlet = nil;
+}
+
+- (void) applicationWillTerminate:(NSNotification *) notification{
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"DrinkDirections" ofType:@"plist"];
+	[self.drinks writeToFile:path atomically:YES];
+}
+
+- (IBAction) addButtonPressed: (id)sender{
+	
+	//NSLog(@"Add Button pressed!");
+	AddDrinkViewController *addDrinkVC = [[AddDrinkViewController alloc] initWithNibName:@"DrinkDetailViewController" bundle:nil];
+	UINavigationController *addNavCon = [[UINavigationController alloc] initWithRootViewController:addDrinkVC];
+	addDrinkVC.drinkArray = self.drinks;
+	[self presentModalViewController:addNavCon animated:YES];
+	[addDrinkVC release];
+	[addNavCon release];
 }
 
 
 - (void)dealloc {
 	[drinks release];
+	[addButtonItem release];
     [super dealloc];
-}
+	}
 
 
 @end
