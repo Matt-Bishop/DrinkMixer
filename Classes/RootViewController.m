@@ -29,8 +29,7 @@
 	self.navigationItem.rightBarButtonItem = self.addButtonItem;
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationWillTerminate:) name: UIApplicationWillTerminateNotification object:nil];
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	self.navigationItem.leftBarButtonItem = self.editButtonItem;
 }
 
 
@@ -106,19 +105,20 @@
 */
 
 
-/*
+
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         // Delete the row from the data source.
+		[self.drinks removeObjectAtIndex:indexPath.row];
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
     }   
     else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
     }   
 }
-*/
+
 
 
 /*
@@ -142,12 +142,21 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-	
+	if (!self.editing) {
 	 DrinkDetailViewController *drinkDetailViewController = [[DrinkDetailViewController alloc] initWithNibName:@"DrinkDetailViewController" bundle:nil];
-     
-	drinkDetailViewController.drink = [self.drinks objectAtIndex:indexPath.row];
+	 drinkDetailViewController.drink = [self.drinks objectAtIndex:indexPath.row];
 	 [self.navigationController pushViewController:drinkDetailViewController animated:YES];
 	 [drinkDetailViewController release];
+	}
+	else{
+		AddDrinkViewController *editingDrinkVC = [[AddDrinkViewController alloc] initWithNibName:@"DrinkDetailViewController" bundle:nil];
+		UINavigationController *editingNavCon = [[UINavigationController alloc] initWithRootViewController:editingDrinkVC];
+		editingDrinkVC.drink = [self.drinks objectAtIndex:indexPath.row];
+		editingDrinkVC.drinkArray = self.drinks;
+		[self.navigationController presentModalViewController:editingNavCon animated:YES];
+		[editingDrinkVC release];
+		[editingNavCon release];
+	}
 	 
 }
 

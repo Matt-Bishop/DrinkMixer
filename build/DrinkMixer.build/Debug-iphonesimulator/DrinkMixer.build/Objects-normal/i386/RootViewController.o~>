@@ -1,4 +1,0 @@
-In file included from /Users/mattheweugenebishop/Documents/DrinkMixer/Classes/RootViewController.m:9:
-/Users/mattheweugenebishop/Documents/DrinkMixer/Classes/RootViewController.h:27: fatal error: method definition not in @implementation context
-compilation terminated.
-{standard input}:34:FATAL:.abort  detected.  Assembly stopping.

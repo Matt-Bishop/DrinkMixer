@@ -68,6 +68,12 @@
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector (keyboardDidHide:) name: UIKeyboardDidHideNotification object:nil];
 	//Initially the keyboard is hidden so reset the variable
 	keyboardVisible = NO;
+	
+	if (self.drink != nil) {
+		nameTextField.text = [self.drink objectForKey:NAME_KEY];
+		ingredientsTextView.text = [self.drink objectForKey:INGREDIENTS_KEY];
+		directionsTextView.text = [self.drink objectForKey:DIRECTIONS_KEY];
+	}
 }
 
 - (void) viewWillDisappear:(BOOL)animated{
@@ -106,11 +112,16 @@
 
 - (IBAction) save: (id) sender{
 	NSLog(@"SavePressed!");
+	if (drink != nil) {
+		[drinkArray removeObject:drink];
+		self.drink = nil;
+	}
 	NSMutableDictionary* newDrink = [[NSMutableDictionary alloc] init];
 	[newDrink setValue:nameTextField.text forKey: NAME_KEY];
 	[newDrink setValue:ingredientsTextView.text forKey: INGREDIENTS_KEY];
 	[newDrink setValue:directionsTextView.text forKey: DIRECTIONS_KEY];
 	[drinkArray addObject:newDrink];
+	
 	NSSortDescriptor *nameSorter = [[NSSortDescriptor alloc] initWithKey:NAME_KEY ascending:YES selector:@selector(caseInsensitiveCompare:)];
 	[drinkArray sortUsingDescriptors:[NSArray arrayWithObject:nameSorter]];
 	[nameSorter release];
